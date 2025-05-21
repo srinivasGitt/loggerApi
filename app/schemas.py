@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 
 class Metadata(BaseModel):
     page:str
-    brower: str
+    browser: str
 
 class EventCreate(BaseModel):
     event_type: str = Field(...,example='page_view')

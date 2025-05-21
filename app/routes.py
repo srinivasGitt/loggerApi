@@ -21,7 +21,7 @@ def get_db():
     finally:
         db.close()
         
-@router.post("user/{username}/activity")
+@router.post("/user/{username}/activity")
 def record_activity(username: str, event: EventCreate, db:Session = Depends(get_db)):
     if username not in USER_DATABASE:
         raise

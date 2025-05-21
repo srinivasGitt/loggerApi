@@ -1,0 +1,29 @@
+how do i resolve a merge conflict
+1. i would try to pull the branch which is having conflicts to my local machine
+2. once it is pulled i would check for conflicts manually in every file and resolve them one by one
+3. I would collaborate with the concerned person and discuss where and how the colflicts happeded that would help to reolve the conflits faster
+
+not recommended ways 
+it's not a good idea to resolve the colflicts in the github editor
+
+how to avoid conflits is to always maintain a proper communitation with 
+the team and know who's working along with me on same brach 
+always create a new branch while working on new tasks 
+
+*****************************************************
+
+How do you create a new user with api key based access to all resources in (AWS, GCP,
+Azure or anything else
+AWS 
+1. Go to IAM 
+2. add users
+3. set user name
+4.select the acces type(
+    check programmatic
+)
+5. permissions(
+    choose attach policies direclty
+    select predefined polity
+)
+6. revieew and create user
+7. save the access key
